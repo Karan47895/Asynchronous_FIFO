@@ -1,0 +1,31 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FIFO_tb_behav xil_defaultlib.FIFO_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Asynchronous FIFO/Asynchronous FIFO.srcs/sources_1/new/FIFO.v" Line 1. Module FIFO(ASIZE=3) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Asynchronous FIFO/Asynchronous FIFO.srcs/sources_1/new/two_ff_sync.v" Line 1. Module two_ff_sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Asynchronous FIFO/Asynchronous FIFO.srcs/sources_1/new/two_ff_sync.v" Line 1. Module two_ff_sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Asynchronous FIFO/Asynchronous FIFO.srcs/sources_1/new/FIFO_memory.v" Line 1. Module FIFO_memory(ADDR_SIZE=3) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Asynchronous FIFO/Asynchronous FIFO.srcs/sources_1/new/rptr_empty.v" Line 1. Module rptr_empty(ADDR_SIZE=3) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Asynchronous FIFO/Asynchronous FIFO.srcs/sources_1/new/wptr_full.v" Line 2. Module wptr_full(ADDR_SIZE=3) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Asynchronous FIFO/Asynchronous FIFO.srcs/sources_1/new/FIFO.v" Line 1. Module FIFO(ASIZE=3) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Asynchronous FIFO/Asynchronous FIFO.srcs/sources_1/new/two_ff_sync.v" Line 1. Module two_ff_sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Asynchronous FIFO/Asynchronous FIFO.srcs/sources_1/new/two_ff_sync.v" Line 1. Module two_ff_sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Asynchronous FIFO/Asynchronous FIFO.srcs/sources_1/new/FIFO_memory.v" Line 1. Module FIFO_memory(ADDR_SIZE=3) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Asynchronous FIFO/Asynchronous FIFO.srcs/sources_1/new/rptr_empty.v" Line 1. Module rptr_empty(ADDR_SIZE=3) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Asynchronous FIFO/Asynchronous FIFO.srcs/sources_1/new/wptr_full.v" Line 2. Module wptr_full(ADDR_SIZE=3) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.two_ff_sync
+Compiling module xil_defaultlib.FIFO_memory(ADDR_SIZE=3)
+Compiling module xil_defaultlib.rptr_empty(ADDR_SIZE=3)
+Compiling module xil_defaultlib.wptr_full(ADDR_SIZE=3)
+Compiling module xil_defaultlib.FIFO(ASIZE=3)
+Compiling module xil_defaultlib.FIFO_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot FIFO_tb_behav
